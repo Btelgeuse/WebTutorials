@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #E8E8E8;
+}
+
 .main-container {
     height: 100vh;
     display: flex;
@@ -18,5 +22,37 @@
 }
 
 button {
+    cursor: pointer;
     margin: 32px;
+    padding: 16px 32px;
+}
+
+#btn-1 {
+    color: rgb(97, 97, 97);
+    border-radius: 10px;
+    border: 2px dashed rgb(97, 97, 97);
+}
+
+#btn-2 {
+    background-color: pink;
+    color: black;
+    border: 1PX solid black;
+    border-radius: 50px;
+    box-shadow: 4px 4px black;
+}
+
+#btn-3 {
+    border: none;
+    border-radius: 10px;
+    background-color: #E7E7E7;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+#btn-4 {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
